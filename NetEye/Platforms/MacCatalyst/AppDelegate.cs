@@ -1,0 +1,13 @@
+﻿using Foundation;
+using CoreGraphics;
+using Microsoft.Maui.Controls;
+using UIKit;
+
+namespace NetEye;
+
+[Register("AppDelegate")]
+public class AppDelegate : MauiUIApplicationDelegate
+{
+	protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+}
+
